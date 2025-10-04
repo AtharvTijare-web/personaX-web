@@ -75,16 +75,31 @@ Root package.json
 <br>
 {
   "name": "personax-fullstack",
+  <br>
   "version": "1.0.0",
+  <br>
   "private": true,
-  "scripts": {
+    <br>
+
+  "scripts":
+    <br>
+
+  {
     "start": "node server/server.js",
     "client": "cd client && npm start",
     "server": "cd server && npm run dev",
     "dev": "concurrently \"npm:server\" \"npm:client\"",
     "build": "cd client && npm run build"
   },
+    <br>
+
   "devDependencies": {
     "concurrently": "^8.0.0"
+      <br>
+
   }
+    <br>
+
 }
+  <br>
+
