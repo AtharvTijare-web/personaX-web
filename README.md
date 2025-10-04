@@ -80,10 +80,8 @@ Root package.json
   <br>
   "private": true,
     <br>
-
   "scripts":
     <br>
-
   {
     "start": "node server/server.js",
     "client": "cd client && npm start",
@@ -92,14 +90,11 @@ Root package.json
     "build": "cd client && npm run build"
   },
     <br>
-
   "devDependencies": {
     "concurrently": "^8.0.0"
       <br>
-
   }
     <br>
-
 }
   <br>
 
